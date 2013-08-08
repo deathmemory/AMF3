@@ -1,0 +1,180 @@
+- 0a |- object type
+00000000h: 0A                                              ; .
+- 82 23 |- properties
+00000001h: 82 23                                           ; ?
+10000010 00100011
+100100011
+1 0 0 1 0 0 0 1 1
+_________ # @ # @	
+	|	  | | | |- not a referenced object
+	|	  | | |- not a referenced definition
+	|	  | |- not Externalisable
+	|	  |- not dynamic
+	|- num of members (18)
+- 69...66 73 |-  deserialise AMF3_STRING is the object name
+	
+00000003h: 69 63 6F 6D 2E 72 69 6F 74 67 61 6D 65 73 2E 70 ; icom.riotgames.p
+00000013h: 6C 61 74 66 6F 72 6D 2E 67 61 6D 65 63 6C 69 65 ; latform.gameclie
+00000023h: 6E 74 2E 64 6F 6D 61 69 6E 2E 47 6C 6F 62 61 6C ; nt.domain.Global
+00000033h: 50 72 65 66 73                                  ; Prefs
+- 13...65 64 |- deserialise AMF3_STRING is the name of members (18 in here)
+00000038h: 13 73 66 78 56 6F 6C 75 6D 65 13 6C 6F 67 69 6E ; .sfxVolume.login
+00000048h: 4E 61 6D 65 1B 72 65 6D 65 6D 62 65 72 4C 6F 67 ; Name.rememberLog
+00000058h: 69 6E 21 65 6E 61 62 6C 65 41 6E 69 6D 61 74 69 ; in!enableAnimati
+00000068h: 6F 6E 73 15 6C 65 61 76 65 72 44 61 74 61 17 6D ; ons.leaverData.m
+00000078h: 75 73 69 63 56 6F 6C 75 6D 65 2D 6C 6F 67 69 6E ; usicVolume-login
+00000088h: 4D 75 73 69 63 4D 75 74 65 43 68 61 6E 67 69 6E ; MusicMuteChangin
+00000098h: 67 21 6D 75 73 69 63 4D 75 74 65 43 68 61 6E 67 ; g!musicMuteChang
+000000a8h: 65 64 09 6D 75 74 65 2B 6C 6F 67 69 6E 4D 75 73 ; ed.mute+loginMus
+000000b8h: 69 63 4D 75 74 65 43 68 61 6E 67 65 64 17 6D 75 ; icMuteChanged.mu
+000000c8h: 74 65 43 68 61 6E 67 65 64 23 6D 75 73 69 63 4D ; teChanged#musicM
+000000d8h: 75 74 65 43 68 61 6E 67 69 6E 67 25 6D 75 73 69 ; uteChanging%musi
+000000e8h: 63 56 6F 6C 75 6D 65 43 68 61 6E 67 65 64 1D 6C ; cVolumeChanged.l
+000000f8h: 6F 67 69 6E 4D 75 73 69 63 4D 75 74 65 15 6C 6F ; oginMusicMute.lo
+00000108h: 63 61 6C 65 44 61 74 61 13 6D 75 73 69 63 4D 75 ; caleData.musicMu
+00000118h: 74 65 33 70 72 65 66 65 72 65 6E 63 65 73 4C 6F ; te3preferencesLo
+00000128h: 61 64 65 64 53 75 6D 6D 6F 6E 65 72 1B 76 6F 6C ; adedSummoner.vol
+00000138h: 75 6D 65 43 68 61 6E 67 65 64                   ; umeChanged
+- 05...0a 09 |- deserialise AMF3 with types, these is the data of the members
+			 |- deserialise AMF3 with types is a loop, when patch a amf3_object type
+00000142h: 05 3F E6 66 66 66 66 66 66 06 01 02 03 0A 43 01 ; .?鎓fffff.....C.
+00000152h: 11 67 61 6D 65 54 69 6D 65 0D 67 61 6D 65 49 64 ; .gameTime.gameId
+00000162h: 19 73 75 6D 6D 6F 6E 65 72 4E 61 6D 65 1D 67 61 ; .summonerName.ga
+00000172h: 6D 65 49 6E 50 72 6F 67 72 65 73 73 05 7F FF FF ; meInProgress.
+00000182h: FF E0 00 00 00 05 7F FF FF FF E0 00 00 00 06 1F ; ?...?....
+00000192h: E8 BF 99 E8 BF 99 E8 BF 99 E8 BF 99 E4 B8 AA 02 ; 杩欒繖杩欒繖涓?
+000001a2h: 05 3F E6 66 66 66 66 66 66 0A 03 01 0A 09 02 0A ; .?鎓fffff.......
+000001b2h: 09 0A 09 0A 09 0A 09 02 0A 43 7D 3E 63 6F 6D 2E ; .........C}>com.
+000001c2h: 72 69 6F 74 67 61 6D 65 73 2E 70 6C 61 74 66 6F ; riotgames.platfo
+000001d2h: 72 6D 2E 67 61 6D 65 63 6C 69 65 6E 74 2E 64 6F ; rm.gameclient.do
+000001e2h: 6D 61 69 6E 2E 55 73 65 72 4C 6F 63 61 6C 65 50 ; main.UserLocaleP
+000001f2h: 72 6F 70 65 72 74 69 65 73 11 74 69 6D 65 5A 6F ; roperties.timeZo
+00000202h: 6E 65 1B 6C 61 6E 67 75 61 67 65 53 61 76 65 64 ; ne.languageSaved
+00000212h: 2A 0F 6C 6F 63 61 6C 49 64 05 7F FF FF FF E0 00 ; *.localId.?
+00000222h: 00 00 02 06 2E 05 7F FF FF FF E0 00 00 00 02 11 ; ......?....
+00000232h: 03 00 06 19 4B 45 59 5F 42 49 4E 44 49 4E 47 53 ; ....KEY_BINDINGS
+00000242h: 06 2E 0A 09                                     ; ....
+
+==Data Analysis(1)=======================================
+
+icom.riotgames.platform.gameclient.domain.GlobalPref:{
+sfxVolume:0.6999999,
+loginName:"",
+rememberLogin:false,
+enableAnimations:true,
+leaverData:{
+- 0a |- object type 
+- 43 |- properties
+01000011
+0 1 0 0 0 0 1 1
+_______ # @ # @	
+  |	    | | | |- not a referenced object
+  |	    | | |- not a referenced definition
+  |	    | |- not Externalisable
+  |	    |- not dynamic
+  |- num of members (4)
+- 01 |- object name (null)
+gameTime:1.#QNAN00000000000,
+gameId:1.#QNAN00000000000,
+summonerName:这这这这个,
+gameInProgress:false
+},
+musicVolume:0.69999999999999996,
+loginMusicMuteChanging:{
+- 0a |- object type
+- 03 |- properties
+00000011
+0 0 0 0 0 0 1 1
+_______ # @ # @	
+  |	    | | | |- not a referenced object
+  |	    | | |- not a referenced definition
+  |	    | |- not Externalisable
+  |	    |- not dynamic
+  |- num of members (0)
+- 01 |- object name (null)
+},
+musicMuteChanged:{
+- 0a |- object type
+- 09 |- properties
+00001001
+0 0 0 0 1 0 0 1
+_______ # @ # @	
+  |	    | | | |- not a referenced object
+  |	    | | |- is a referenced definition
+  |	    | |- not Externalisable
+  |	    |- is dynamic
+  |- num of members (0)
+},
+mute:false,
+loginMusicMuteChanged:{},
+muteChanged:{},
+musicMuteChanging:{},
+musicVolumeChanged:{},
+loginMusicMute:false,
+localeData:{
+- 0a |- object type
+- 43 |- properties
+01000011
+0 1 0 0 0 0 1 1
+_______ # @ # @	
+  |	    | | | |- not a referenced object
+  |	    | | |- not a referenced definition
+  |	    | |- not Externalisable
+  |	    |- not dynamic
+  |- num of members (4)
+- 7d |- object name (62)
+com.riotgames.platform.gameclient.domain.UserLocaleProperties:{
+timeZone:1.#QNAN00000000000,
+languageSaved:false,
+summonerName:这这这这个,	//referenced(21)[2a 101010 10101]:referenced(23)[2e 101110 10111],
+localId:false
+}
+},
+musicMute:{dictionary},
+00000231h: 11 03 00 06 19 4B 45 59 5F 42 49 4E 44 49 4E 47 ; .....KEY_BINDING
+00000241h: 53                                              ; S
+preferencesLoadedSummoner:这这这这个,	//referenced(23)[2e 101110 10111],
+volumeChanged:{}
+}
+
+==Data Analysis(2)================================================
+{
+"icom.riotgames.platform.gameclient.domain.GlobalPref":{
+sfxVolume:0.6999999,
+loginName:"",
+rememberLogin:false,
+enableAnimations:true,
+leaverData:{
+gameTime:0,
+gameId:0,
+summonerName:"这这这这个",
+gameInProgress:false
+},
+musicVolume:0.69999999999999996,
+loginMusicMuteChanging:{
+},
+musicMuteChanged:{
+},
+mute:false,
+loginMusicMuteChanged:{},
+muteChanged:{},
+musicMuteChanging:{},
+musicVolumeChanged:{},
+loginMusicMute:false,
+localeData:{
+"com.riotgames.platform.gameclient.domain.UserLocaleProperties":{
+timeZone:0,
+languageSaved:false,
+summonerName:"这这这这个",
+localId:false
+}},
+musicMute:{},
+preferencesLoadedSummoner:"这这这这个",
+volumeChanged:{}
+}
+}
+
+==questions============================================
+musicMute dictionary 如何解析？
+引用如何索引 ？
+dyname 如何解析？
